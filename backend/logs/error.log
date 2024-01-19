@@ -1,0 +1,1327 @@
+
+    15:46 20/12/2023 | [SYSTEM] |  GET /api/test | [::1] 
+ TypeError: Cannot destructure property 'filter' of 'req.pagination' as it is undefined.
+    at getStart (D:\Prj3\EyesClinicSystem\backend\controller\start.js:5:11)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    15:47 20/12/2023 | [SYSTEM] |  GET /api/test | [::1] 
+ TypeError: Cannot destructure property 'filter' of 'req.pagination' as it is undefined.
+    at getStart (D:\Prj3\EyesClinicSystem\backend\controller\start.js:5:11)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    16:20 20/12/2023 | [SYSTEM] |  POST /api/user | [::1] 
+ ValidationError: User validation failed: phoneNumber: Path `phoneNumber` is required., name: Path `name` is required.
+    at model.Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+    
+    16:22 20/12/2023 | [SYSTEM] |  POST /api/user | [::1] 
+ ValidationError: User validation failed: phoneNumber: Path `phoneNumber` is required., name: Path `name` is required.
+    at model.Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+    
+    16:22 20/12/2023 | [SYSTEM] |  POST /api/user | [::1] 
+ ValidationError: User validation failed: phoneNumber: Path `phoneNumber` is required., name: Path `name` is required.
+    at model.Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+    
+    16:22 20/12/2023 | [SYSTEM] |  POST /api/user | [::1] 
+ ValidationError: User validation failed: phoneNumber: Path `phoneNumber` is required., name: Path `name` is required.
+    at model.Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+    
+    16:28 20/12/2023 | [SYSTEM] |  POST /api/auth-user/login | [::1] 
+ Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Prj3\EyesClinicSystem\backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at Object.generateRefreshToken (D:\Prj3\EyesClinicSystem\backend\utils\security.js:26:21)
+    at login (D:\Prj3\EyesClinicSystem\backend\controller\authUser.js:21:37)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:47 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:47 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:52 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:52 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:52 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:58 20/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:21 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:22 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:22 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:24 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:24 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:24 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:26 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:26 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:27 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    21:55 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:08 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:08 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:15 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:16 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:16 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:16 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:18 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:20 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:21 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:21 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:23 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:24 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:25 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:30 21/12/2023 | [SYSTEM] |  GET /api/user | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:30 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:32 21/12/2023 | [SYSTEM] |  GET /api/user?page=1&size=100 | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:32 21/12/2023 | [SYSTEM] |  GET /api/user | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:32 21/12/2023 | [SYSTEM] |  GET /api/user | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:33 21/12/2023 | [SYSTEM] |  GET /api/user | [::1] 
+ TypeError: Cannot destructure property 'limit' of 'undefined' as it is undefined.
+    at Object.getAllUser (D:\Prj3\EyesClinicSystem\backend\service\user.js:5:29)
+    at getAllUser (D:\Prj3\EyesClinicSystem\backend\controller\user.js:14:39)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:45:7
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at requireLogin (D:\Prj3\EyesClinicSystem\backend\middlewares\auth.js:20:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    17:02 22/12/2023 | [SYSTEM] |  POST /api/user | [::1] 
+ ValidationError: User validation failed: gender: `Female` is not a valid enum value for path `gender`.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:44 23/12/2023 | [SYSTEM] |  GET /api/user/detail/6586fb917b3e3b9100e8edd4 | [::1] 
+ TypeError: convertDOBFormat is not a function
+    at Object.getUserByID (D:\Prj3\EyesClinicSystem\backend\service\user.js:45:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getUserByID (D:\Prj3\EyesClinicSystem\backend\controller\user.js:22:23)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:19 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:19 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:19 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:19 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:20 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:20 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:21 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:22 23/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: doctor_list.countDocuments is not a function
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:9:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:59 23/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ ReferenceError: res is not defined
+    at Object.createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:49:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:26:18)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    23:59 23/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ ReferenceError: res is not defined
+    at Object.createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:49:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:26:18)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:00 24/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ ReferenceError: res is not defined
+    at Object.createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:49:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:26:18)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:00 24/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ ReferenceError: res is not defined
+    at Object.createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:49:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:26:18)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:00 24/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ ReferenceError: res is not defined
+    at Object.createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:49:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createDoctorInfor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:26:18)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    20:57 24/12/2023 | [SYSTEM] |  POST /api/doctor | [::1] 
+ CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    22:58 24/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ReferenceError: doctorService is not defined
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:36:25)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    22:58 24/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ReferenceError: doctorService is not defined
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:36:25)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    23:01 24/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: doctorService.checkExist is not a function
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:37:45)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    23:02 24/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ValidationError: Schedule validation failed: timeTypeId: Cast to Number failed for value "658850906bd27e3631c85e23" (type string) at path "timeTypeId", doctorId: Cast to Number failed for value "658838dc5678617a64f03902" (type string) at path "doctorId"
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1353:12)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1062:16)
+    at model.Document (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:4919:15)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3165:22
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3201:7
+    at Array.forEach (<anonymous>)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3200:15
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3135:23)
+    at Object.createSchedule (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:63:20)
+    
+    23:11 25/12/2023 | [SYSTEM] |  POST /api/doctor_schedule | [::1] 
+ ValidationError: DoctorSchedule validation failed: number: Path `number` is required., patientId: Path `patientId` is required., scheduleId: Path `scheduleId` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    23:13 25/12/2023 | [SYSTEM] |  POST /api/doctor_schedule | [::1] 
+ ValidationError: DoctorSchedule validation failed: number: Path `number` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    23:25 25/12/2023 | [SYSTEM] |  POST /api/doctor_schedule | [::1] 
+ ValidationError: DoctorSchedule validation failed: number: Cast to Number failed for value "NaN" (type number) at path "number"
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1353:12)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1062:16)
+    at model.Document (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:4919:15)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3165:22
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3201:7
+    at Array.forEach (<anonymous>)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3200:15
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:3135:23)
+    at Object.createDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\service\doctorSchedule.js:81:52)
+    
+    12:28 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:29:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:31 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:30:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:32 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:31:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:33 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ ReferenceError: mongoose is not defined
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:30:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:34 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:37 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:37 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:38 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:40 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:40 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    12:40 26/12/2023 | [SYSTEM] |  GET /api/doctor | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctor (D:\Prj3\EyesClinicSystem\backend\service\doctor.js:33:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctor (D:\Prj3\EyesClinicSystem\backend\controller\doctor.js:14:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    13:04 26/12/2023 | [SYSTEM] |  GET /api/doctor/undefined | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: 'undefined' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:07 26/12/2023 | [SYSTEM] |  GET /api/doctor/undefined | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: 'undefined' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:08 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:08 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:09 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:09 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:13 26/12/2023 | [SYSTEM] |  GET /api/doctor/:doctor_id | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: ':doctor_id' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:13 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:13 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:13 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:15 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:16 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:24 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    13:25 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    15:54 26/12/2023 | [SYSTEM] |  GET /api/doctor/658838dc5678617a64f03902 | [::1] 
+ CastError: Cast to ObjectId failed for value "{ doctor_id: '658838dc5678617a64f03902' }" (type Object) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    17:34 26/12/2023 | [SYSTEM] |  POST /api/auth-user/login | [::1] 
+ Error: Illegal arguments: undefined, string
+    at _async (D:\Prj3\EyesClinicSystem\backend\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\bcryptjs\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at bcrypt.compare (D:\Prj3\EyesClinicSystem\backend\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+    at Object.verifyPassword (D:\Prj3\EyesClinicSystem\backend\utils\security.js:32:31)
+    at login (D:\Prj3\EyesClinicSystem\backend\controller\authUser.js:13:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:25 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:48:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:26 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:49:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:26 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:51:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:27 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.createSchedule (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:130:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:64:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:28 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.createSchedule (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:132:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:64:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:29 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.createSchedule (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:133:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:64:25)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:42 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at createSchedule (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:51:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    22:47 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ValidationError: Schedule validation failed: curentNumber: Path `curentNumber` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:47 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ValidationError: Schedule validation failed: curentNumber: Path `curentNumber` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:47 26/12/2023 | [SYSTEM] |  POST /api/schedule | [::1] 
+ ValidationError: Schedule validation failed: curentNumber: Path `curentNumber` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    00:26 28/12/2023 | [SYSTEM] |  DELETE /api/doctor_schedule/6589ae887decf83e1406dcfd | [::1] 
+ ReferenceError: id is not defined
+    at deleteDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\controller\doctorSchedule.js:42:17)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    
+    22:11 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ReferenceError: description is not defined
+    at Object.createHistory (D:\Prj3\EyesClinicSystem\backend\service\history.js:37:9)
+    at createHistory (D:\Prj3\EyesClinicSystem\backend\controller\history.js:29:45)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    
+    22:12 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ReferenceError: description is not defined
+    at Object.createHistory (D:\Prj3\EyesClinicSystem\backend\service\history.js:37:9)
+    at createHistory (D:\Prj3\EyesClinicSystem\backend\controller\history.js:29:45)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    
+    22:14 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: medicine: Path `medicine` is required., result: Path `result` is required., prescription: Path `prescription` is required., file: Path `file` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:15 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: result: Path `result` is required., prescription: Path `prescription` is required., medicine: Path `medicine` is required., file: Path `file` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:18 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: file: Path `file` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:18 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: file: Path `file` is required.
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2578:17
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+    
+    22:28 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: file: Cast to string failed for value "{
+  file: { uid: 'rc-upload-1703863677702-2' },
+  fileList: [
+    {
+      uid: 'rc-upload-1703863677702-2',
+      lastModified: 1702478914677,
+      lastModifiedDate: '2023-12-13T14:48:34.677Z',
+      name: 'MobileApDev.pdf',
+      size: 1562018,
+      type: 'application/pdf',
+      percent: 0,
+      originFileObj: [Object]
+    }
+  ]
+}" (type Object) at path "file"
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1353:12)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1062:16)
+    at model.Document (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:4919:15)
+    at Object.createHistory (D:\Prj3\EyesClinicSystem\backend\service\history.js:35:24)
+    at createHistory (D:\Prj3\EyesClinicSystem\backend\controller\history.js:29:45)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    22:29 29/12/2023 | [SYSTEM] |  POST /api/history | [::1] 
+ ValidationError: History validation failed: file: Cast to string failed for value "{
+  file: { uid: 'rc-upload-1703863776615-2' },
+  fileList: [
+    {
+      uid: 'rc-upload-1703863776615-2',
+      lastModified: 1702137482231,
+      lastModifiedDate: '2023-12-09T15:58:02.231Z',
+      name: 'Assignment01-Use case analysis.pdf',
+      size: 1184374,
+      type: 'application/pdf',
+      percent: 0,
+      originFileObj: [Object]
+    }
+  ]
+}" (type Object) at path "file"
+    at Document.invalidate (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:2786:32)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1353:12)
+    at model.$set (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:1062:16)
+    at model.Document (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\model.js:4919:15)
+    at Object.createHistory (D:\Prj3\EyesClinicSystem\backend\service\history.js:35:24)
+    at createHistory (D:\Prj3\EyesClinicSystem\backend\controller\history.js:29:45)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    
+    00:02 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:108:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:26:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:03 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:109:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:05 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ CastError: Cast to ObjectId failed for value "{}" (type Object) at path "userId" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    
+    00:07 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:111:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:07 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:111:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:07 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:112:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:09 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:112:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:09 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ ReferenceError: onsole is not defined
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:107:5)
+    at getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:49)
+    at D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:11
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Prj3\EyesClinicSystem\backend\node_modules\express\lib\router\index.js:328:13)
+    
+    00:09 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:13 30/12/2023 | [SYSTEM] |  GET /api/schedule/user/6586ab7a8897186c604c8712 | [::1] 
+ TypeError: Cannot read properties of null (reading '_id')
+    at Object.getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\service\schedule.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getScheduleByUserId (D:\Prj3\EyesClinicSystem\backend\controller\schedule.js:27:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    01:24 30/12/2023 | [SYSTEM] |  GET /api/doctor_schedule?page=1&size=100 | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\service\doctorSchedule.js:44:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\controller\doctorSchedule.js:14:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    01:24 30/12/2023 | [SYSTEM] |  GET /api/doctor_schedule?page=1&size=100 | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\service\doctorSchedule.js:44:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\controller\doctorSchedule.js:14:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    01:26 30/12/2023 | [SYSTEM] |  GET /api/doctor_schedule?page=1&size=100 | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\service\doctorSchedule.js:44:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\controller\doctorSchedule.js:14:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    01:28 30/12/2023 | [SYSTEM] |  GET /api/doctor_schedule?page=1&size=100 | [::1] 
+ TypeError: Cannot read properties of null (reading 'name')
+    at Object.getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\service\doctorSchedule.js:44:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllDoctorSchedule (D:\Prj3\EyesClinicSystem\backend\controller\doctorSchedule.js:14:27)
+    at async D:\Prj3\EyesClinicSystem\backend\middlewares\errorHandle.js:5:5
+    
+    00:41 20/01/2024 | [SYSTEM] |  GET /api/doctor/create | [::1] 
+ CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
+    00:41 20/01/2024 | [SYSTEM] |  GET /api/doctor/create | [::1] 
+ CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Doctor"
+    at model.Query.exec (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4498:21)
+    at Query.then (D:\Prj3\EyesClinicSystem\backend\node_modules\mongoose\lib\query.js:4592:15)
+    
